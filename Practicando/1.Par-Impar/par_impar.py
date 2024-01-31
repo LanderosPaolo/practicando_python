@@ -1,4 +1,4 @@
-print('-.Hola querido usuario, quieres saber si un número es par o impar?')
+print('-.Hola, quieres saber si un número es par o impar?')
 
 # Mientras no se cumpla la condicion, se seguira preguntando
 while True:
