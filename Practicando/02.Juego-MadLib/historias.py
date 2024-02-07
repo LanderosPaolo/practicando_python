@@ -1,4 +1,6 @@
+# Función que ejecutara la historia llamada "Enciende mi fuego"
 def enciende_mi_fuego ():
+    # Se le pide al usuario ingresar datos
     parte_del_cuerpo_plural = input('Ingresa una parte del cuerpo en plural: ')
     adjetivo_masculino_plural = input('Ingresa un adjetivo masculino en plural: ')
     adjetivo_masculino = input('Ingresa un adjetivo masculino: ')
@@ -14,13 +16,14 @@ def enciende_mi_fuego ():
     nombre_propio = input('Ingresa un nombre propio: ')
     nombre_femenino = input('Ingresa un nombre femenino: ')
 
+    # Los datos ocuparán el espacio "vacío" en el texto.
     print(f'''
     Antiguamente, el ser humano caminaba a cuatro "{parte_del_cuerpo_plural}",
     se expresaba mediante gruñidos "{adjetivo_masculino_plural}" y no sabía encender un "{adjetivo_masculino}" fuego.
     Esta es la historia del día en que la humanidad cambió para siempre (traducida del "{adjetivo_masculino_2}" idioma de las cavernas):
     -.  Hombre de las cavernas 1: 
         En esta cueva hace más frío que en (el/ella) "{lugar}".
-        incluso con la piel del/de la "{animal}" más caliente no consigo que mi "{parte_del_cuerpo}" deje de tiritar.
+        Incluso con la piel del/de la "{animal}" más caliente no consigo que mi "{parte_del_cuerpo}" deje de tiritar.
 
     -.  Hombre de las cavernas 2:
         Si al menos pudiésemos encontrar una manera de que el frío fuera más "{adjetivo}".
@@ -41,9 +44,11 @@ def enciende_mi_fuego ():
         A partir de ahora llamaremos "fuego" a esta "{nombre_femenino}" mágica.
     ''')
 
+# Función que ejecutara la historia llamada "Eureka"
 def eureka ():
+    # Se le pide al usuario ingresar datos
     sustantivo = input('Ingresa un sustantivo: ')
-    profesion_masculina_plural = input('Ingresa una profesion masculina en plural: ')
+    profesion_masculina_plural = input('Ingresa una profesión masculina en plural: ')
     sustantivo_masculino_plural = input('Ingresa un sustantivo masculino en plural: ')
     sustantivo_plural = input('Ingresa un sustantivo en plural: ')
     sustantis_plural_2 = input('Ingresa un segundo sustantivo en plural: ')
@@ -56,13 +61,14 @@ def eureka ():
     sustantivo_femenino = input('Ingresa un sustantivo femenino: ')
     sustantivo_femenino_2 = input('Ingresa un segundo sustantivo femenino: ')
 
+    # Los datos ocuparán el espacio "vacío" en el texto.
     print(f'''
     A lo largo de la historia, los inventores han creado objetos de uso 
     cotidiano como el ordenador, el coche, y el/la {sustantivo}. Estos 
     son algunos de los {profesion_masculina_plural} más conocidos hoy en día:
 
     -. Benjamin Franklin no solo fue uno de los {sustantivo_masculino_plural} fundadores 
-    de los Estados Unidos, sino que también inventó muchas cosas, entre las 
+    de los Estados Unidos, si no que también inventó muchas cosas, entre las 
     que se incluyen las lentes bifocales, que permiten ver {sustantivo_plural}
     de lejos y cerca. También creó el pararrayos, que protege los/las
     {sustantis_plural_2} de las {sustantivo_femenino_plural} eléctricas.
