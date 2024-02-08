@@ -5,12 +5,18 @@ from historias import enciende_mi_fuego, eureka
 while True:
     try:
         # Solicitamos al usuario que elija una historia
-        eleccion = int(input('''¿Qué historia quieres?
-        [1]: Enciende mi fuego
-        [2]: ¡Eureka!
-        [3]: Salir
-        -->: '''))
+        while True:
+            try:
+                eleccion = int(input('''¿Qué historia quieres?
+                [1]: Enciende mi fuego
+                [2]: ¡Eureka!
+                [3]: Salir
+                -->: '''))
+                break  # Salimos del bucle interno si la conversión a int es exitosa
 
+            except ValueError:  # Manejamos la excepción si el usuario no ingresa un número
+                print('Has ingresado algo que no es un número, por favor, intenta de nuevo.')
+        
         if eleccion == 1:
             enciende_mi_fuego()
     
@@ -20,13 +26,12 @@ while True:
         elif eleccion == 3:
             print('¡Vuelve luego!')
             break
-        # Si el usuario ingresa un número no válido, le pedimos que elija entre 1, 2 o 3
+
         else:
             print('Has ingresado un número inválido, por favor, elige entre 1, 2 o 3')
-            continue
-    # Manejamos excepciones en caso de que el usuario ingrese algo que no sea un número
-    except:
-        print('Has ingresado un número invalido, por favor, vuelve a intentar: ')
+
+    except Exception as e:  # Manejamos cualquier otra excepción no esperada
+        print('Ha ocurrido un error:', e)
 
     # Preguntamos al usuario si quiere jugar otra historia
     otra_historia = input('¿Quieres probar otra historia? Y/N: ').lower()
