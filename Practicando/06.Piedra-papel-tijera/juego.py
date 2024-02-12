@@ -1,4 +1,4 @@
-# importamos random
+# Importamos random
 import random
 
 # Damos la bienvenida al jugador
@@ -9,11 +9,11 @@ puntos_computadora = 0
 puntos_jugador = 0
 empates = 0
 
-# Creamos un bucle para seguir jugando o en caso de que ingrese un número no valido
+# Creamos un bucle para seguir jugando o en caso de que ingrese un número no válido
 while True:
-    # Opciones que tendra la computadora
+    # Opciones que tendrá la computadora
     opciones_computadora = ['Piedra', 'Papel', 'Tijeras']
-    # Las opciones se elijen de manera aleatoria con random
+    # Las opciones se eligen de manera aleatoria con random
     opcion_aleatoria = random.choice(opciones_computadora)
 
     try:
@@ -24,7 +24,7 @@ Puedes elegir que vas a usar en el siguiente encuentro
 [3]: Tijeras
 [4]: Salir
 --->: '''))
-        # Transformamos la opcion del jugador
+        # Transformamos la opción del jugador
         if eleccion == 1:
             eleccion = 'Piedra'
         
@@ -44,11 +44,11 @@ Puedes elegir que vas a usar en el siguiente encuentro
             break
 
         else:
-            # en caso de ingresar un número no válido, se vuelve a preguntar
+            # En caso de ingresar un número no válido, se vuelve a preguntar
             print('''\n---> Has ingresado un número no válido, intenta de nuevo. <-- ''')
             continue
 
-        # En caso de que la eleccion del jugador sea la misma de la computadora, es un empate
+        # En caso de que la elección del jugador sea la misma de la computadora, es un empate
         if eleccion == opcion_aleatoria:
             # Se suma +1 al contador de empates
             empates += 1
@@ -56,7 +56,7 @@ Puedes elegir que vas a usar en el siguiente encuentro
             print('Jugador: ' + eleccion)
             print('Computadora: ' + opcion_aleatoria)
 
-        # Segun las reglas del juego, el jugador es el ganador
+        # Según las reglas del juego, el jugador es el ganador
         elif (eleccion == 'Piedra' and opcion_aleatoria == 'Tijeras') or \
             (eleccion == 'Papel' and opcion_aleatoria == 'Piedra') or \
             (eleccion == 'Tijeras' and opcion_aleatoria == 'Papel'):
@@ -66,7 +66,7 @@ Puedes elegir que vas a usar en el siguiente encuentro
             print('Jugador: ' + eleccion)
             print('Computadora: ' + opcion_aleatoria)
         
-        # Segun las reglas si no se cumple la linea 52 ni 60 el jugador pierde
+        # Según las reglas si no se cumple la línea 52 ni 60 el jugador pierde
         else:
             # Se suma +1 a los puntos de la computadora
             puntos_computadora += 1
@@ -77,7 +77,7 @@ Puedes elegir que vas a usar en el siguiente encuentro
     except ValueError:
         print('\nHas ingresado algo que no es un número, por favor, intenta de nuevo.')
 
-    # Despues de cada juego, tenemos la opcion de seguir jugando
+    # Después de cada juego, tenemos la opción de seguir jugando
     seguir_jugando = input('\n¿Quieres seguir jugando? Y/N: ').lower()
 
     # Si no queremos seguir jugando, nos informan de los puntos y el juego termina
