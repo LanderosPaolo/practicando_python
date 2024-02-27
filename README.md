@@ -17,7 +17,7 @@ En mi camino para mejorar mis habilidades de desarrollo de software, he encontra
 
 ### ----------> *Proyectos para niveles Junior* <----------
 
-#### 1. Par o Impar
+## 1. Par o Impar
 Este programa solicita al usuario ingresar un número entre 1 y 1000. Luego, determina si el número es par o impar y muestra el resultado. Si el usuario ingresa un número fuera de este rango o un valor no numérico, se le pedirá que ingrese un número válido. Después de cada verificación, se pregunta al usuario si desea ingresar otro número. El programa continúa ejecutándose hasta que el usuario decida no ingresar más números.
 
 El resumen del funcionamiento del código es el siguiente:
