@@ -1,6 +1,9 @@
 # Practicando Python
 En mi camino para mejorar mis habilidades de desarrollo de software, he encontrado la necesidad de trabajar en una variedad de proyectos. Siguiendo el consejo de FreeCodeCamp, he decidido comenzar con proyectos más pequeños para desarrollar mi confianza y dominio de Python. Este enfoque progresivo me permitirá aprender y aplicar conceptos fundamentales de manera práctica. Antes de embarcarme en cualquier proyecto, es esencial tener una comprensión sólida de los conceptos básicos de Python, como la declaración de variables, la entrada del usuario, las estructuras de control, y la creación de funciones.
 
+### **_Página de los ejercicios en freecodecamp_**
+    https://www.freecodecamp.org/espanol/news/11-proyectos-de-python-que-los-desarrolladores-junior-pueden-crear-para-practicar/
+
 ### Índice
 
 1. [Par o Impar](#1-par-o-impar)
