@@ -3,7 +3,7 @@ En mi camino para mejorar mis habilidades de desarrollo de software, he encontra
 
 ### Índice
 
-1. [Par o Impar](#par-o-impar)
+1. [Par o Impar](#Par-o-Impar)
 2. [Juego Mad Libs](#juego-mad-libs)
 3. [Contador de Palabras](#contador-de-palabras)
 4. [Información de la Biografía](#información-de-la-biografía)
