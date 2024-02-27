@@ -13,7 +13,7 @@ En mi camino para mejorar mis habilidades de desarrollo de software, he encontra
 8. [¿Es Palíndromo?](#es-palíndromo)
 9. [Calculador de Propinas](#calculador-de-propinas)
 10. [Extractor de Información del Correo Electrónico](#extractor-de-información-del-correo-electrónico)
-11. [generador](#generador)
+11. [Generador de Letras](#generador-de-letras)
 
 ### ----------> *Proyectos para niveles Junior* <----------
 
