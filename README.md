@@ -3,16 +3,16 @@ En mi camino para mejorar mis habilidades de desarrollo de software, he encontra
 
 ### Índice
 
-1. [Par o Impar](##Par-o-Impar)
-2. [Juego Mad Libs](#juego-mad-libs)
-3. [Contador de Palabras](#contador-de-palabras)
-4. [Información de la Biografía](#información-de-la-biografía)
-5. [¿Cuál es el Acrónimo?](#cuál-es-el-acrónimo)
-6. [Piedra, Papel y Tijeras](#piedra-papel-y-tijeras)
-7. [Adivina el Número Oculto](#adivina-el-número-oculto)
-8. [¿Es Palíndromo?](#es-palíndromo)
-9. [Calculador de Propinas](#calculador-de-propinas)
-10. [Extractor de Información del Correo Electrónico](#extractor-de-información-del-correo-electrónico)
+1. [Par o Impar](#1-par-o-impar)
+2. [Juego Mad Libs](#2-juego-mad-libs)
+3. [Contador de Palabras](#3-contador-de-palabras)
+4. [Información de la Biografía](#4-información-de-la-biografía)
+5. [¿Cuál es el Acrónimo?](#5-cuál-es-el-acrónimo)
+6. [Piedra, Papel y Tijeras](#6-piedra-papel-y-tijeras)
+7. [Adivina el Número Oculto](#7-adivina-el-número-oculto)
+8. [¿Es Palíndromo?](#8-es-palíndromo)
+9. [Calculador de Propinas](#9-calculador-de-propinas)
+10. [Extractor de Información del Correo Electrónico](#10-extractor-de-información-del-correo-electrónico)
 11. [Generador de Letras](#11-generador-de-letras)
 
 ### ----------> *Proyectos para niveles Junior* <----------
@@ -28,7 +28,7 @@ El resumen del funcionamiento del código es el siguiente:
     Se le pregunta al usuario si desea ingresar otro número.
     El programa continúa ejecutándose hasta que el usuario decida no ingresar más números.
 
-#### 2. Juego Mad Libs
+## 2. Juego Mad Libs
 Este programa consiste en dos partes: un módulo llamado historias.py que contiene dos funciones, enciende_mi_fuego() y eureka(), y un archivo de entrada index.py que permite al usuario seleccionar y jugar una de estas historias.
 
 En el archivo historias.py, las funciones solicitan al usuario que ingrese ciertas palabras o frases, que luego se insertan en una historia predefinida para crear una narrativa personalizada. La función enciende_mi_fuego() genera una historia sobre la invención del fuego, mientras que la función eureka() presenta historias sobre famosos inventores y sus creaciones.
@@ -42,7 +42,7 @@ El resumen del funcionamiento del código es el siguiente:
     Estas palabras o frases se insertan en una historia predefinida para crear una narrativa personalizada.
     Después de jugar una historia, se le pregunta al usuario si quiere jugar otra historia o salir del programa.
 
-#### 3. Contador de Palabras
+## 3. Contador de Palabras
 Este programa ofrece dos funciones principales: contador_palabras() y contador_letras().
 
 La función contador_palabras(texto) cuenta la cantidad de palabras en un texto dado. Primero, el texto se divide en palabras utilizando el método split(). Luego, se cuenta el número de elementos en la lista resultante, lo que proporciona la cantidad de palabras. El resultado se imprime, indicando si hay una palabra o más de una palabra en el texto.
@@ -51,13 +51,13 @@ La función contador_letras(texto) cuenta la cantidad de letras en un texto dado
 
 El programa principal solicita al usuario que elija entre contar la cantidad de palabras, contar la cantidad de letras o salir del programa. Dependiendo de la elección del usuario, se solicita un texto de entrada y se llama a la función correspondiente. Después de ejecutar la operación seleccionada, se le pregunta al usuario si desea realizar otra acción. El programa continúa ejecutándose hasta que el usuario elige salir.
 
-#### 4. Información de la Biografía
+## 4. Información de la Biografía
 Este programa solicita al usuario su nombre, fecha de nacimiento, dirección y meta personal. Utiliza validación de entrada para asegurarse de que el nombre y la fecha de nacimiento se ingresen correctamente en formatos válidos. Para la fecha de nacimiento, utiliza una expresión regular para verificar que el formato sea día/mes/año. Una vez que se han ingresado todos los detalles, el programa imprime la información personal recopilada en un formato organizado y fácil de leer.
 
-#### 5. ¿Cuál es el Acrónimo?
+## 5. ¿Cuál es el Acrónimo?
 Este programa solicita al usuario que ingrese un significado completo y luego genera un acrónimo basado en las letras iniciales de cada palabra en el significado ingresado. Primero, divide el significado en palabras utilizando el método split(). Luego, itera sobre cada palabra y concatena la primera letra de cada palabra para formar el acrónimo. Finalmente, imprime el acrónimo resultante en mayúsculas.
 
-#### 6. Piedra, Papel y Tijeras
+## 6. Piedra, Papel y Tijeras
 Este juego clásico permite al jugador enfrentarse a la computadora en una serie de encuentros de Piedra, Papel o Tijeras. El programa solicita al jugador que elija una opción y luego genera una elección aleatoria para la computadora. Después de cada ronda, muestra quién ganó el encuentro o si fue un empate. Además, lleva un registro de los puntos acumulados por el jugador y la computadora, así como la cantidad de empates.
 
 El jugador puede elegir entre las siguientes opciones:
@@ -69,7 +69,7 @@ El jugador puede elegir entre las siguientes opciones:
 
 Después de cada ronda, el jugador tiene la opción de continuar jugando o salir del juego. Al salir del juego, se muestran los resultados finales, incluidos los puntos del jugador, los puntos de la computadora y la cantidad de empates.
 
-#### 7. Adivina el Número Oculto
+## 7. Adivina el Número Oculto
 En este juego, la computadora elige aleatoriamente un número entre 1 y 10, y el jugador tiene tres intentos para adivinar ese número. Después de cada intento, la computadora proporciona pistas al jugador sobre si el número ingresado es mayor o menor que el número seleccionado aleatoriamente.
 Instrucciones:
 
@@ -83,7 +83,7 @@ Ejemplo de juego:
     Introduces un número, por ejemplo, 5.
     Continúas hasta que adivines el número o agotes tus tres intentos.
 
-#### 8. ¿Es Palíndromo?
+## 8. ¿Es Palíndromo?
 Este programa te permite verificar si las palabras que ingreses son palíndromas o no. Un palíndromo es una palabra que se lee igual de izquierda a derecha que de derecha a izquierda.
 Instrucciones:
 
@@ -113,7 +113,7 @@ Resultados:
 
 El programa identificará y te mostrará cuáles de las palabras ingresadas son palíndromas y cuáles no.
 
-#### 9. Calculador de Propinas
+## 9. Calculador de Propinas
 Este programa te ayuda a calcular la propina y dividir la factura entre un grupo de personas.
 
     1.Ingresar la Factura Total: Se te pedirá que ingreses el total de la factura del día.
@@ -135,7 +135,7 @@ Ejemplo de Uso:
 
 En este ejemplo, se calculan las propinas y el total a pagar por persona para una factura de $55.87. Luego, se divide la factura entre 4 personas, mostrando cuánto debe pagar cada una, incluyendo la propina, para las tres opciones de propina.
 
-#### 10. Extractor de Información del Correo Electrónico
+## 10. Extractor de Información del Correo Electrónico
 Este programa extrae información útil de una dirección de correo electrónico ingresada por el usuario.
 
     1.Ingresar Correo Electrónico: Se solicita al usuario que ingrese su dirección de correo electrónico.
