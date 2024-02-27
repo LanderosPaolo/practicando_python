@@ -13,7 +13,7 @@ En mi camino para mejorar mis habilidades de desarrollo de software, he encontra
 8. [¿Es Palíndromo?](#es-palíndromo)
 9. [Calculador de Propinas](#calculador-de-propinas)
 10. [Extractor de Información del Correo Electrónico](#extractor-de-información-del-correo-electrónico)
-11. [Generador de Letras](#generador_de_letras)
+11. [generador](#generador)
 
 ### ----------> *Proyectos para niveles Junior* <----------
 
@@ -158,7 +158,7 @@ Ejemplo de Uso:
 
 En este ejemplo, el usuario ingresa la dirección de correo electrónico "ejemplo@gmailcom".El programa extrae el usuario ("ejemplo") y analiza el dominio ("gmail"). Luego, muestra un mensaje de saludo indicando que el correo está registrado con Google.
 
-## 11. Generador de Letras
+## 11. generador
 Generador de Letras de Canciones
 
 Este programa permite al usuario explorar letras de canciones almacenadas en un archivo JSON. El usuario puede elegir entre ver las canciones por artistas o ver todas las canciones disponibles.
