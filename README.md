@@ -158,7 +158,7 @@ Ejemplo de Uso:
 
 En este ejemplo, el usuario ingresa la dirección de correo electrónico "ejemplo@gmailcom".El programa extrae el usuario ("ejemplo") y analiza el dominio ("gmail"). Luego, muestra un mensaje de saludo indicando que el correo está registrado con Google.
 
-## 11. generador
+## 11. Generador de Letras
 Generador de Letras de Canciones
 
 Este programa permite al usuario explorar letras de canciones almacenadas en un archivo JSON. El usuario puede elegir entre ver las canciones por artistas o ver todas las canciones disponibles.
